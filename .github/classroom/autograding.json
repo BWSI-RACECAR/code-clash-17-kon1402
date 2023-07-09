@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 graphtraversal.py",
+      "input": "Start,Invisible Maze,Ice Valley,The Labyrinth,Tower of Doom,Park Walk,Cone Slalom,Street Dodge,Sloped Madness,Finish\r\nInvisible Maze,The Labyrinth\r\n15 20\r\nPark Walk\r\n45\r\nTower of Doom,Sloped Madness\r\n45 85\r\nIce Valley,Sloped Madness\r\n45 155\r\nCone Slalom,Ice Valley\r\n10 45\r\nTower of Doom\r\n45\r\nSloped Madness,Street Dodge\r\n45 30\r\nFinish\r\n70\r\nFinish\r\n60\r\nFinish",
+      "output": "210",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    }
+  ]
+}
